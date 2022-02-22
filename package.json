@@ -1,0 +1,37 @@
+{
+  "name": "j2t",
+  "version": "0.0.0",
+  "description": "CLI for sync Jira time entries to TradingWorks app",
+  "author": "Jonatan Colussi <jonatancolussi81@gmail.com>",
+  "private": false,
+  "preferGlobal": true,
+  "bin": {
+    "j2t": "bin/j2t"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,json} && standard --fix"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "gluegun": "^5.1.0",
+    "puppeteer": "^13.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "standard": "^16.0.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonatanColussi/j2t.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonatanColussi/j2t/issues"
+  },
+  "homepage": "https://github.com/JonatanColussi/j2t#readme"
+}
