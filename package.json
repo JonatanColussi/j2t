@@ -1,6 +1,6 @@
 {
   "name": "j2t",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CLI for sync Jira time entries to TradingWorks app",
   "author": "Jonatan Colussi <jonatancolussi81@gmail.com>",
   "private": false,
